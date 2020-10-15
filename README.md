@@ -14,4 +14,4 @@ if you wanna contribute by adding more functions, you are most welcome. I would 
 
 Here's a screenshot of the calc app :-
 
-![screenshot](/images/calci.png)
+![screenshot](/calci.png)
