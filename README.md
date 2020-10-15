@@ -9,4 +9,4 @@ Simple functionality like addition, subtraction, multiplication, division and pe
 if you wanna contribute by adding more functions, you are most welcome. I would love to see your creativiy.
 
 -- HOPE THIS HELPS TO ANYONE IN NEED --
-# HAPPY CODING #
+#### HAPPY CODING ####
