@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sec-c-calci</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simplest Web Calculator In The Universe</h1>
+        <h3>-Made By Traptrick</h3>
+
+        <form name="calci" class="calc">
+            <input type="text" name="result" id="answer">
+            <input type="button" class="nos" id="clear" value="AC" onclick="document.calci.result.value = ' ' ">
+            <input type="button" class="operator" value="%" onclick="document.calci.result.value += '%' ">
+            <input type="button" class="operator" value="/" onclick="document.calci.result.value += '/' ">
+            <input type="button" class="nos" value="7" onclick="document.calci.result.value += '7' ">
+            <input type="button" class="nos" value="8" onclick="document.calci.result.value += '8' ">
+            <input type="button" class="nos" value="9" onclick="document.calci.result.value += '9' ">
+            <input type="button" class="operator" value="*" onclick="document.calci.result.value += '*' ">
+            <input type="button" class="nos" value="4" onclick="document.calci.result.value += '4' ">
+            <input type="button" class="nos" value="5" onclick="document.calci.result.value += '5' ">
+            <input type="button" class="nos" value="6" onclick="document.calci.result.value += '6' ">
+            <input type="button" class="operator" value="-" onclick="document.calci.result.value += '-' ">
+            <input type="button" class="nos" value="1" onclick="document.calci.result.value += '1' ">
+            <input type="button" class="nos" value="2" onclick="document.calci.result.value += '2' ">
+            <input type="button" class="nos" value="3" onclick="document.calci.result.value += '3' ">
+            <input type="button" class="operator" value="+" onclick="document.calci.result.value += '+' ">
+            <input type="button" class="nos" value="00" onclick="document.calci.result.value += '00' ">
+            <input type="button" class="nos" value="0" onclick="document.calci.result.value += '0' ">
+            <input type="button" class="nos" value="." onclick="document.calci.result.value += '.' ">
+            <input type="button" class="nos" id="equalto" value="=" onclick="document.calci.result.value = eval(document.calci.result.value) ">
+        
+        </form>
+
+		<footer>&copy; traptrick</footer>
+    </div>
+</body>
+</html>
